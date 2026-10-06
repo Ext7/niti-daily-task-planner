@@ -17,7 +17,7 @@ const copy = {
     stepOneTitle: 'Open Extensions', stepOneText: 'Select the puzzle-piece icon in the top-right corner of Chrome.',
     stepTwoTitle: 'Find and pin NITI', stepTwoText: 'Find NITI in the extension list, then select its pin icon.',
     stepThreeTitle: 'Open NITI anytime', stepThreeText: 'Use the NITI icon in your toolbar whenever you want to plan your day.',
-    gettingStarted: 'Pin NITI in three steps', dashboard: 'Open NITI dashboard', dashboardUnavailable: 'Open NITI from the extension menu', footer: 'Your tasks stay in this browser.', pinScreenshotAlt: 'Chrome Extensions menu showing NITI and its pin control', openScreenshotAlt: 'Chrome toolbar showing the NITI icon', uninstallFormTitle: 'NITI uninstall feedback',
+    gettingStarted: 'Pin NITI in three steps', dashboard: 'Open NITI dashboard now', footer: 'Your tasks stay in this browser.', pinScreenshotAlt: 'Chrome Extensions menu showing NITI and its pin control', openScreenshotAlt: 'Chrome toolbar showing the NITI icon', uninstallFormTitle: 'NITI uninstall feedback',
     shareEyebrow: 'NITI for Chrome', shareTitle: 'Share a calmer way to plan', shareLead: 'Send NITI to someone who wants a clearer day without another account.',
     copyLink: 'Copy Chrome Web Store link', copyUnavailable: 'The Chrome Web Store link will appear after publication.', copied: 'Link copied.', storeLink: 'Get NITI in Chrome Web Store',
     privacyEyebrow: "NITI for Chrome",
@@ -55,7 +55,7 @@ const copy = {
     stepOneTitle: 'Откройте расширения', stepOneText: 'Нажмите иконку пазла в правом верхнем углу Chrome.',
     stepTwoTitle: 'Найдите и закрепите NITI', stepTwoText: 'Найдите NITI в списке расширений и нажмите иконку закрепления.',
     stepThreeTitle: 'Открывайте NITI в любой момент', stepThreeText: 'Нажимайте иконку NITI на панели, когда хотите спланировать день.',
-    gettingStarted: 'Закрепите NITI за три шага', dashboard: 'Открыть дашборд NITI', dashboardUnavailable: 'Откройте NITI через меню расширений', footer: 'Ваши задачи остаются в этом браузере.', pinScreenshotAlt: 'Меню расширений Chrome с NITI и иконкой закрепления', openScreenshotAlt: 'Панель Chrome с иконкой NITI', uninstallFormTitle: 'Обратная связь после удаления NITI',
+    gettingStarted: 'Закрепите NITI за три шага', dashboard: 'Открыть дашборд NITI сейчас', footer: 'Ваши задачи остаются в этом браузере.', pinScreenshotAlt: 'Меню расширений Chrome с NITI и иконкой закрепления', openScreenshotAlt: 'Панель Chrome с иконкой NITI', uninstallFormTitle: 'Обратная связь после удаления NITI',
     shareEyebrow: 'NITI для Chrome', shareTitle: 'Поделитесь более спокойным способом планировать', shareLead: 'Отправьте NITI тому, кто хочет яснее видеть свой день без ещё одного аккаунта.',
     copyLink: 'Скопировать ссылку Chrome Web Store', copyUnavailable: 'Ссылка Chrome Web Store появится после публикации.', copied: 'Ссылка скопирована.', storeLink: 'Установить NITI из Chrome Web Store',
     privacyEyebrow: "NITI для Chrome",
@@ -93,7 +93,7 @@ const copy = {
     stepOneTitle: 'Abre Extensiones', stepOneText: 'Selecciona el icono de pieza de rompecabezas en la esquina superior derecha de Chrome.',
     stepTwoTitle: 'Busca y fija NITI', stepTwoText: 'Busca NITI en la lista de extensiones y selecciona su icono de fijar.',
     stepThreeTitle: 'Abre NITI en cualquier momento', stepThreeText: 'Usa el icono de NITI en la barra cuando quieras planificar tu día.',
-    gettingStarted: 'Fija NITI en tres pasos', dashboard: 'Abrir el panel de NITI', dashboardUnavailable: 'Abre NITI desde el menú de extensiones', footer: 'Tus tareas permanecen en este navegador.', pinScreenshotAlt: 'Menú de extensiones de Chrome con NITI y su control para fijar', openScreenshotAlt: 'Barra de Chrome con el icono de NITI', uninstallFormTitle: 'Comentarios al desinstalar NITI',
+    gettingStarted: 'Fija NITI en tres pasos', dashboard: 'Abrir el panel de NITI ahora', footer: 'Tus tareas permanecen en este navegador.', pinScreenshotAlt: 'Menú de extensiones de Chrome con NITI y su control para fijar', openScreenshotAlt: 'Barra de Chrome con el icono de NITI', uninstallFormTitle: 'Comentarios al desinstalar NITI',
     shareEyebrow: 'NITI para Chrome', shareTitle: 'Comparte una forma más tranquila de planificar', shareLead: 'Envía NITI a alguien que quiere ver su día con más claridad sin otra cuenta.',
     copyLink: 'Copiar enlace de Chrome Web Store', copyUnavailable: 'El enlace de Chrome Web Store aparecerá tras la publicación.', copied: 'Enlace copiado.', storeLink: 'Instalar NITI desde Chrome Web Store',
     privacyEyebrow: "NITI para Chrome",
@@ -128,7 +128,7 @@ const copy = {
 };
 
 Object.assign(copy.en, {
-  homeNavFeatures: 'Features', homeNavStart: 'Get started', homeEyebrow: 'A clearer day starts here', homeTitle: 'Daily Task Planner for a Clearer Day.',
+  homeNavFeatures: 'Features', homeNavStart: 'Get started', homeEyebrow: 'NITI for Chrome', homeTitle: 'Daily Task Planner for a Clearer Day.',
   homeLead: 'Capture tasks in one click, choose your Daily Focus, and see the rest of your plan in a calm Chrome dashboard. No account needed.',
   homeStorePending: 'Coming to Chrome Web Store', homeExplore: 'Explore features ↘', homeHeroNote: 'Works offline · Your tasks stay in your browser',
   homeFeaturesEyebrow: 'One place for the day ahead', homeFeaturesTitle: 'Simple when you start. Flexible when you need more.', homeFeaturesLead: 'Begin with a single task. Add structure as your plans grow.',
@@ -142,7 +142,7 @@ Object.assign(copy.en, {
   homePinLabel: 'Keep NITI one click away', homeFinalEyebrow: 'Start small. Stay clear.', homeFinalTitle: 'One task is enough to begin.', homeFinalText: "NITI grows with your list, from today's focus to projects, routines, and reminders.",
 });
 Object.assign(copy.ru, {
-  homeNavFeatures: 'Возможности', homeNavStart: 'Как начать', homeEyebrow: 'Ясный день начинается здесь', homeTitle: 'Планировщик задач на день без лишнего шума.',
+  homeNavFeatures: 'Возможности', homeNavStart: 'Как начать', homeEyebrow: 'NITI для Chrome', homeTitle: 'Планировщик задач на день без лишнего шума.',
   homeLead: 'Добавляйте задачи в один клик, выбирайте фокус дня и смотрите остальные планы в удобном дашборде Chrome. Регистрация не нужна.',
   homeStorePending: 'Скоро в Chrome Web Store', homeExplore: 'Смотреть возможности ↘', homeHeroNote: 'Работает офлайн · Задачи остаются в вашем браузере',
   homeFeaturesEyebrow: 'Всё для планов на день', homeFeaturesTitle: 'Просто начать. Удобно развивать планы.', homeFeaturesLead: 'Начните с одной задачи. Добавляйте структуру по мере необходимости.',
@@ -156,7 +156,7 @@ Object.assign(copy.ru, {
   homePinLabel: 'NITI всегда в одном клике', homeFinalEyebrow: 'Начните с малого. Сохраняйте ясность.', homeFinalTitle: 'Для начала хватит одной задачи.', homeFinalText: 'NITI растёт вместе с вашим списком: от фокуса дня до проектов, повторов и напоминаний.',
 });
 Object.assign(copy.es, {
-  homeNavFeatures: 'Funciones', homeNavStart: 'Cómo empezar', homeEyebrow: 'Un día más claro empieza aquí', homeTitle: 'Planificador diario de tareas para un día más claro.',
+  homeNavFeatures: 'Funciones', homeNavStart: 'Cómo empezar', homeEyebrow: 'NITI para Chrome', homeTitle: 'Planificador diario de tareas para un día más claro.',
   homeLead: 'Anota tareas en un clic, elige tu enfoque diario y consulta el resto de tu plan en un panel tranquilo de Chrome. Sin cuenta.',
   homeStorePending: 'Próximamente en Chrome Web Store', homeExplore: 'Explorar funciones ↘', homeHeroNote: 'Funciona sin conexión · Tus tareas se quedan en tu navegador',
   homeFeaturesEyebrow: 'Un lugar para el día que viene', homeFeaturesTitle: 'Sencillo al empezar. Flexible cuando necesitas más.', homeFeaturesLead: 'Empieza con una tarea. Añade estructura a medida que crezcan tus planes.',
@@ -314,7 +314,8 @@ systemDark?.addEventListener?.('change', () => { if (theme === 'system') applyTh
 function updateDashboardLink() {
   const dashboardLink = document.querySelector('[data-dashboard-link]');
   if (!dashboardLink) return;
-  const extensionId = params.get('extensionId');
+  const requestedId = params.get('extensionId');
+  const extensionId = /^[a-p]{32}$/.test(requestedId || '') ? requestedId : promotionSiteConfig.cwsExtensionId;
   if (/^[a-p]{32}$/.test(extensionId || '')) {
     dashboardLink.href = `chrome-extension://${extensionId}/dashboard.html`;
     dashboardLink.classList.remove('is-disabled');
@@ -323,7 +324,6 @@ function updateDashboardLink() {
     dashboardLink.removeAttribute('href');
     dashboardLink.classList.add('is-disabled');
     dashboardLink.setAttribute('aria-disabled', 'true');
-    dashboardLink.textContent = text.dashboardUnavailable;
   }
 }
 
