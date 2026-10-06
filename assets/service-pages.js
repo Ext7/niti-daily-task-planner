@@ -1,8 +1,8 @@
 const promotionSiteConfig = Object.freeze({
   ga4MeasurementId: '',
-  // Shared by every public page. Fill after the first draft ZIP upload.
+  // Shared by every public page. The listing is live in Chrome Web Store.
   cwsExtensionId: 'bgepeodnammpjgcplhljjdefemgpbjnm',
-  cwsPublished: false,
+  cwsPublished: true,
   get cwsListingUrl() {
     return /^[a-p]{32}$/.test(this.cwsExtensionId) ? `https://chromewebstore.google.com/detail/${this.cwsExtensionId}` : '';
   },
@@ -12,7 +12,7 @@ const promotionSiteConfig = Object.freeze({
 
 const copy = {
   en: {
-    languageLabel: 'Language', sitePages: 'Site pages', navWelcome: 'Welcome', navShare: 'Share', navPrivacy: 'Privacy policy', navUpdates: 'Updates',
+    languageLabel: 'Language', themeLabel: 'Theme', themeLight: 'Light theme', themeSystem: 'System theme', themeDark: 'Dark theme', shareTooltip: 'Copy a link to NITI', copyFailed: 'Could not copy the link. Please try again.', sitePages: 'Site pages', navWelcome: 'Welcome', navShare: 'Share', navPrivacy: 'Privacy policy', navUpdates: 'Updates',
     welcomeEyebrow: 'NITI for Chrome', welcomeTitle: 'NITI is installed and ready', welcomeLead: 'Pin NITI once and keep your daily tasks one click away.',
     stepOneTitle: 'Open Extensions', stepOneText: 'Select the puzzle-piece icon in the top-right corner of Chrome.',
     stepTwoTitle: 'Find and pin NITI', stepTwoText: 'Find NITI in the extension list, then select its pin icon.',
@@ -23,7 +23,7 @@ const copy = {
     privacyEyebrow: "NITI for Chrome",
     privacyTitle: "Privacy Policy",
     privacyLead: "How NITI handles your information.",
-    privacyUpdated: "Last updated: October 2, 2026",
+    privacyUpdated: "Last updated: October 6, 2026",
     privacyOverviewTitle: "Overview",
     privacyOverviewText: "NITI is a personal task planner for Chrome and Chromium-based Edge. Its core features work without an account or cloud synchronization. This policy covers the extension and the NITI service pages.",
     privacyLocalTitle: "Information stored in your browser",
@@ -35,7 +35,7 @@ const copy = {
     privacyFormsTitle: "Feedback and uninstall forms",
     privacyFormsText: "If you choose to submit feedback or answer the uninstall survey, Google Forms processes the information you enter and we receive your response. Google may also process technical or account information under its own privacy policy. NITI does not attach your tasks, projects, or extension settings to these forms.",
     privacySiteTitle: "Service pages and analytics",
-    privacySiteText: "The NITI service pages are hosted on GitHub Pages. Your browser requests these pages from GitHub, which may process connection data under its own policy. The pages save your language choice in browser local storage. Google Analytics 4 is currently disabled; no GA4 script is loaded. We will update this policy before enabling it.",
+    privacySiteText: "The NITI service pages are hosted on GitHub Pages. Your browser requests these pages from GitHub, which may process connection data under its own policy. The pages save your language and theme choices in browser local storage. Google Analytics 4 is currently disabled; no GA4 script is loaded. We will update this policy before enabling it.",
     privacySharingTitle: "Use and sharing",
     privacySharingText: "We use local workspace data only to provide the planner features. We do not sell it or use it for advertising. Optional external features, including Zenkit import and feedback forms, handle only the information described above. You choose where to save an exported backup.",
     privacyChoicesTitle: "Your choices and retention",
@@ -50,7 +50,7 @@ const copy = {
     updatesEyebrow: 'NITI for Chrome',
   },
   ru: {
-    languageLabel: 'Язык', sitePages: 'Страницы сайта', navWelcome: 'Приветствие', navShare: 'Поделиться', navPrivacy: 'Конфиденциальность', navUpdates: 'Обновления',
+    languageLabel: 'Язык', themeLabel: 'Тема', themeLight: 'Светлая тема', themeSystem: 'Системная тема', themeDark: 'Тёмная тема', shareTooltip: 'Скопировать ссылку на NITI', copyFailed: 'Не удалось скопировать ссылку. Попробуйте ещё раз.', sitePages: 'Страницы сайта', navWelcome: 'Приветствие', navShare: 'Поделиться', navPrivacy: 'Конфиденциальность', navUpdates: 'Обновления',
     welcomeEyebrow: 'NITI для Chrome', welcomeTitle: 'NITI установлен и готов к работе', welcomeLead: 'Закрепите NITI один раз — и ежедневные задачи будут в одном клике.',
     stepOneTitle: 'Откройте расширения', stepOneText: 'Нажмите иконку пазла в правом верхнем углу Chrome.',
     stepTwoTitle: 'Найдите и закрепите NITI', stepTwoText: 'Найдите NITI в списке расширений и нажмите иконку закрепления.',
@@ -61,7 +61,7 @@ const copy = {
     privacyEyebrow: "NITI для Chrome",
     privacyTitle: "Политика конфиденциальности",
     privacyLead: "Как NITI обращается с вашими данными.",
-    privacyUpdated: "Обновлено: 2 октября 2026 года",
+    privacyUpdated: "Обновлено: 6 октября 2026 года",
     privacyOverviewTitle: "Общие сведения",
     privacyOverviewText: "NITI — личный планировщик задач для Chrome и Edge на базе Chromium. Основные функции работают без аккаунта и облачной синхронизации. Эта политика относится к расширению и служебным страницам NITI.",
     privacyLocalTitle: "Данные в вашем браузере",
@@ -73,7 +73,7 @@ const copy = {
     privacyFormsTitle: "Формы отзывов и опрос после удаления",
     privacyFormsText: "Если вы отправляете отзыв или отвечаете на опрос после удаления, Google Forms обрабатывает введённые данные, а мы получаем ответ. Google также может обрабатывать технические данные или сведения аккаунта согласно своей политике. NITI не прикладывает к формам задачи, проекты или настройки расширения.",
     privacySiteTitle: "Служебные страницы и аналитика",
-    privacySiteText: "Служебные страницы NITI размещены на GitHub Pages. Ваш браузер запрашивает их у GitHub, который может обрабатывать данные соединения по собственной политике. Выбор языка страницы сохраняется в локальном хранилище браузера. Google Analytics 4 сейчас отключён; скрипт GA4 не загружается. Перед его включением мы обновим эту политику.",
+    privacySiteText: "Служебные страницы NITI размещены на GitHub Pages. Ваш браузер запрашивает их у GitHub, который может обрабатывать данные соединения по собственной политике. Выбор языка и темы страницы сохраняется в локальном хранилище браузера. Google Analytics 4 сейчас отключён; скрипт GA4 не загружается. Перед его включением мы обновим эту политику.",
     privacySharingTitle: "Использование и передача данных",
     privacySharingText: "Мы используем локальные данные рабочего пространства только для функций планировщика. Мы не продаём их и не используем для рекламы. Необязательные внешние функции, в том числе импорт Zenkit и формы отзывов, обрабатывают только данные, описанные выше. Вы сами выбираете, куда сохранить экспортированную резервную копию.",
     privacyChoicesTitle: "Ваш выбор и срок хранения",
@@ -88,7 +88,7 @@ const copy = {
     updatesEyebrow: 'NITI для Chrome',
   },
   es: {
-    languageLabel: 'Idioma', sitePages: 'Páginas del sitio', navWelcome: 'Bienvenida', navShare: 'Compartir', navPrivacy: 'Privacidad', navUpdates: 'Novedades',
+    languageLabel: 'Idioma', themeLabel: 'Tema', themeLight: 'Tema claro', themeSystem: 'Tema del sistema', themeDark: 'Tema oscuro', shareTooltip: 'Copiar enlace a NITI', copyFailed: 'No se pudo copiar el enlace. Inténtalo de nuevo.', sitePages: 'Páginas del sitio', navWelcome: 'Bienvenida', navShare: 'Compartir', navPrivacy: 'Privacidad', navUpdates: 'Novedades',
     welcomeEyebrow: 'NITI para Chrome', welcomeTitle: 'NITI está instalado y listo', welcomeLead: 'Fija NITI una vez y tendrás tus tareas diarias a un clic.',
     stepOneTitle: 'Abre Extensiones', stepOneText: 'Selecciona el icono de pieza de rompecabezas en la esquina superior derecha de Chrome.',
     stepTwoTitle: 'Busca y fija NITI', stepTwoText: 'Busca NITI en la lista de extensiones y selecciona su icono de fijar.',
@@ -99,7 +99,7 @@ const copy = {
     privacyEyebrow: "NITI para Chrome",
     privacyTitle: "Política de privacidad",
     privacyLead: "Cómo trata NITI tu información.",
-    privacyUpdated: "Última actualización: 2 de octubre de 2026",
+    privacyUpdated: "Última actualización: 6 de octubre de 2026",
     privacyOverviewTitle: "Información general",
     privacyOverviewText: "NITI es un planificador personal de tareas para Chrome y Edge basado en Chromium. Sus funciones principales no requieren cuenta ni sincronización en la nube. Esta política abarca la extensión y las páginas de servicio de NITI.",
     privacyLocalTitle: "Información guardada en tu navegador",
@@ -111,7 +111,7 @@ const copy = {
     privacyFormsTitle: "Formularios de comentarios y desinstalación",
     privacyFormsText: "Si decides enviar comentarios o responder la encuesta de desinstalación, Google Forms procesa la información que introduces y nosotros recibimos tu respuesta. Google también puede procesar datos técnicos o de cuenta según su propia política. NITI no adjunta tus tareas, proyectos ni ajustes a estos formularios.",
     privacySiteTitle: "Páginas de servicio y analítica",
-    privacySiteText: "Las páginas de servicio de NITI están alojadas en GitHub Pages. Tu navegador las solicita a GitHub, que puede procesar datos de conexión según su propia política. Las páginas guardan tu idioma en el almacenamiento local del navegador. Google Analytics 4 está desactivado actualmente y no se carga su script. Actualizaremos esta política antes de activarlo.",
+    privacySiteText: "Las páginas de servicio de NITI están alojadas en GitHub Pages. Tu navegador las solicita a GitHub, que puede procesar datos de conexión según su propia política. Las páginas guardan tu idioma y tema en el almacenamiento local del navegador. Google Analytics 4 está desactivado actualmente y no se carga su script. Actualizaremos esta política antes de activarlo.",
     privacySharingTitle: "Uso y divulgación",
     privacySharingText: "Usamos los datos locales del espacio de trabajo solo para ofrecer las funciones del planificador. No los vendemos ni los usamos para publicidad. Las funciones externas opcionales, como la importación de Zenkit y los formularios, tratan solo la información descrita arriba. Tú eliges dónde guardar una copia de seguridad exportada.",
     privacyChoicesTitle: "Tus opciones y conservación",
@@ -295,6 +295,21 @@ const hasPublishedListing = promotionSiteConfig.cwsPublished && Boolean(promotio
 const isLanguage = (value) => Object.hasOwn(copy, value);
 let language = isLanguage(params.get('lang')) ? params.get('lang') : (isLanguage(localStorage.getItem('niti-service-language')) ? localStorage.getItem('niti-service-language') : 'en');
 let text = copy.en;
+const savedTheme = localStorage.getItem('niti-service-theme');
+let theme = ['light', 'system', 'dark'].includes(savedTheme) ? savedTheme : 'system';
+const systemDark = window.matchMedia?.('(prefers-color-scheme: dark)');
+
+function applyTheme(nextTheme) {
+  theme = ['light', 'system', 'dark'].includes(nextTheme) ? nextTheme : 'system';
+  document.documentElement.dataset.themeChoice = theme;
+  document.documentElement.dataset.theme = theme === 'system' ? (systemDark?.matches ? 'dark' : 'light') : theme;
+  document.querySelectorAll('[data-theme-choice]').forEach((button) => {
+    button.setAttribute('aria-pressed', String(button.dataset.themeChoice === theme));
+  });
+}
+
+applyTheme(theme);
+systemDark?.addEventListener?.('change', () => { if (theme === 'system') applyTheme(theme); });
 
 function updateDashboardLink() {
   const dashboardLink = document.querySelector('[data-dashboard-link]');
@@ -351,6 +366,10 @@ function applyLanguage(nextLanguage) {
     const value = text[element.dataset.i18nTitle];
     if (value) element.setAttribute('title', value);
   });
+  document.querySelectorAll('[data-i18n-tooltip]').forEach((element) => {
+    const value = text[element.dataset.i18nTooltip];
+    if (value) element.dataset.tooltip = value;
+  });
   document.querySelectorAll('[data-language]').forEach((button) => {
     button.setAttribute('aria-pressed', String(button.dataset.language === language));
   });
@@ -367,16 +386,48 @@ document.querySelectorAll('[data-language]').forEach((button) => {
   });
 });
 
+document.querySelectorAll('[data-theme-choice]').forEach((button) => {
+  button.addEventListener('click', () => {
+    const nextTheme = button.dataset.themeChoice;
+    if (!['light', 'system', 'dark'].includes(nextTheme)) return;
+    localStorage.setItem('niti-service-theme', nextTheme);
+    applyTheme(nextTheme);
+  });
+});
+
 const copyButton = document.querySelector('[data-copy-listing]');
 const copyStatus = document.querySelector('[data-copy-status]');
-if (copyButton && copyStatus) {
-  copyButton.addEventListener('click', async () => {
-    if (!hasPublishedListing) return;
-    await navigator.clipboard.writeText(promotionSiteConfig.cwsListingUrl);
-    copyStatus.textContent = text.copied;
-    track('share_copy_link', { language });
-  });
+let toastTimer;
+function showCopyToast(message) {
+  let toast = document.querySelector('[data-copy-toast]');
+  if (!toast) {
+    toast = document.createElement('p');
+    toast.className = 'copy-toast';
+    toast.dataset.copyToast = '';
+    toast.setAttribute('role', 'status');
+    toast.setAttribute('aria-live', 'polite');
+    document.body.append(toast);
+  }
+  toast.textContent = message;
+  toast.hidden = false;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { toast.hidden = true; }, 3500);
 }
+
+async function copyListing() {
+  if (!promotionSiteConfig.cwsListingUrl) return;
+  try {
+    await navigator.clipboard.writeText(promotionSiteConfig.cwsListingUrl);
+    if (copyStatus) copyStatus.textContent = text.copied;
+    showCopyToast(text.copied);
+    track('share_copy_link', { language });
+  } catch {
+    if (copyStatus) copyStatus.textContent = text.copyFailed;
+    showCopyToast(text.copyFailed);
+  }
+}
+copyButton?.addEventListener('click', copyListing);
+document.querySelectorAll('[data-copy-footer]').forEach((button) => button.addEventListener('click', copyListing));
 
 const uninstallFrame = document.querySelector('[data-uninstall-form]');
 if (uninstallFrame && /^https:\/\//.test(promotionSiteConfig.uninstallFormUrl)) {
