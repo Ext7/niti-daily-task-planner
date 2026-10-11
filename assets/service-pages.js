@@ -128,6 +128,14 @@ const copy = {
 };
 
 Object.assign(copy.en, {
+  updatesTasksChangesTitle: 'Task list and quick actions',
+  updatesTasksChangesTomorrow: 'Postpone a task by 24 hours from the task list, popup, or Overview cards using the clock-and-arrow action.',
+  updatesTasksChangesFilter: 'Select “No project” in the project filter to show tasks without a project.',
+  updatesTasksChangesCounter: 'The dashboard tab icon and title follow your chosen counter mode.',
+  updatesProjectChangesTitle: 'Project cards',
+  updatesProjectChangesRename: 'Rename a project with the pencil beside its name; leaving the field saves it.',
+  updatesProjectChangesActions: 'The top-right icons show all tasks, save, archive, and delete, in that order.',
+  updatesProjectChangesAdd: 'Use the “+” icon to add a task to the project.',
   homeNavFeatures: 'Features', homeNavStart: 'Get started', homeEyebrow: 'NITI for Chrome', homeTitle: 'Daily Task Planner for a Clearer Day.',
   homeLead: 'Capture tasks in one click, choose your Daily Focus, and see the rest of your plan in a calm Chrome dashboard. No account needed.',
   homeStorePending: 'Coming to Chrome Web Store', homeExplore: 'Explore features ↘', homeHeroNote: 'Works offline · Your tasks stay in your browser',
@@ -142,6 +150,14 @@ Object.assign(copy.en, {
   homePinLabel: 'Keep NITI one click away', homeFinalEyebrow: 'Start small. Stay clear.', homeFinalTitle: 'One task is enough to begin.', homeFinalText: "NITI grows with your list, from today's focus to projects, routines, and reminders.",
 });
 Object.assign(copy.ru, {
+  updatesTasksChangesTitle: 'Список задач и быстрые действия',
+  updatesTasksChangesTomorrow: 'Переносите задачу на 24 часа вперёд иконкой часов со стрелкой в списке задач, попапе и виджетах «Обзора».',
+  updatesTasksChangesFilter: 'Выбирайте «Без проекта» в фильтре, чтобы увидеть задачи без привязки к проекту.',
+  updatesTasksChangesCounter: 'Иконка и заголовок вкладки дашборда следуют выбранному режиму счётчика.',
+  updatesProjectChangesTitle: 'Карточки проектов',
+  updatesProjectChangesRename: 'Меняйте название карандашом рядом с ним; выход из поля сохраняет новое название.',
+  updatesProjectChangesActions: 'Иконки справа вверху идут в порядке: все задачи, сохранить, архивировать, удалить.',
+  updatesProjectChangesAdd: 'Добавляйте задачу в проект иконкой «+».',
   homeNavFeatures: 'Возможности', homeNavStart: 'Как начать', homeEyebrow: 'NITI для Chrome', homeTitle: 'Планировщик задач на день без лишнего шума.',
   homeLead: 'Добавляйте задачи в один клик, выбирайте фокус дня и смотрите остальные планы в удобном дашборде Chrome. Регистрация не нужна.',
   homeStorePending: 'Скоро в Chrome Web Store', homeExplore: 'Смотреть возможности ↘', homeHeroNote: 'Работает офлайн · Задачи остаются в вашем браузере',
@@ -156,6 +172,14 @@ Object.assign(copy.ru, {
   homePinLabel: 'NITI всегда в одном клике', homeFinalEyebrow: 'Начните с малого. Сохраняйте ясность.', homeFinalTitle: 'Для начала хватит одной задачи.', homeFinalText: 'NITI растёт вместе с вашим списком: от фокуса дня до проектов, повторов и напоминаний.',
 });
 Object.assign(copy.es, {
+  updatesTasksChangesTitle: 'Lista de tareas y acciones rápidas',
+  updatesTasksChangesTomorrow: 'Pospón una tarea 24 horas desde la lista, la ventana emergente o las tarjetas de resumen con el icono de reloj y flecha.',
+  updatesTasksChangesFilter: 'Elige «Sin proyecto» en el filtro para ver las tareas sin proyecto.',
+  updatesTasksChangesCounter: 'El icono y el título de la pestaña del panel siguen el modo de contador elegido.',
+  updatesProjectChangesTitle: 'Tarjetas de proyectos',
+  updatesProjectChangesRename: 'Cambia el nombre con el lápiz junto a él; al salir del campo se guarda.',
+  updatesProjectChangesActions: 'Los iconos de arriba a la derecha están en este orden: todas las tareas, guardar, archivar y eliminar.',
+  updatesProjectChangesAdd: 'Añade una tarea al proyecto con el icono «+».',
   homeNavFeatures: 'Funciones', homeNavStart: 'Cómo empezar', homeEyebrow: 'NITI para Chrome', homeTitle: 'Planificador diario de tareas para un día más claro.',
   homeLead: 'Anota tareas en un clic, elige tu enfoque diario y consulta el resto de tu plan en un panel tranquilo de Chrome. Sin cuenta.',
   homeStorePending: 'Próximamente en Chrome Web Store', homeExplore: 'Explorar funciones ↘', homeHeroNote: 'Funciona sin conexión · Tus tareas se quedan en tu navegador',
@@ -171,6 +195,13 @@ Object.assign(copy.es, {
 });
 
 Object.assign(copy.en, {
+  updatesBadgeVersion: 'Version 1.4.3',
+  updatesBadgeReleaseTitle: 'A clearer way to manage tasks and projects',
+  updatesBadgeReleaseLead: 'The latest changes to the icon counter, task actions, and project cards.',
+  updatesBadgeTitle: 'A badge count that works for you',
+  updatesBadgeToday: 'Show unfinished tasks scheduled for today.',
+  updatesBadgeOverdue: 'Show overdue tasks.',
+  updatesBadgeBoth: "Or show the combined total of today's and overdue tasks.",
   updatesTitle: 'A clearer way to plan every day.',
   updatesLead: 'Discover the tools in NITI, from a quick thought to a complete plan.',
   updatesVersion: 'Version 1.4.0',
@@ -211,6 +242,13 @@ Object.assign(copy.en, {
 });
 
 Object.assign(copy.ru, {
+  updatesBadgeVersion: 'Версия 1.4.3',
+  updatesBadgeReleaseTitle: 'Удобнее работать с задачами и проектами',
+  updatesBadgeReleaseLead: 'Изменения счётчика на иконке, быстрых действий и карточек проектов.',
+  updatesBadgeTitle: 'Счётчик под ваши задачи',
+  updatesBadgeToday: 'Показывайте незавершённые задачи на сегодня.',
+  updatesBadgeOverdue: 'Показывайте просроченные задачи.',
+  updatesBadgeBoth: 'Или показывайте их общее количество.',
   updatesTitle: 'Планируйте каждый день яснее.',
   updatesLead: 'От быстрой записи идеи до продуманного плана — узнайте, что умеет NITI.',
   updatesVersion: 'Версия 1.4.0',
@@ -251,6 +289,13 @@ Object.assign(copy.ru, {
 });
 
 Object.assign(copy.es, {
+  updatesBadgeVersion: 'Versión 1.4.3',
+  updatesBadgeReleaseTitle: 'Gestiona tareas y proyectos con más claridad',
+  updatesBadgeReleaseLead: 'Cambios en el contador del icono, las acciones rápidas y las tarjetas de proyectos.',
+  updatesBadgeTitle: 'Un contador a tu medida',
+  updatesBadgeToday: 'Muestra las tareas pendientes programadas para hoy.',
+  updatesBadgeOverdue: 'Muestra las tareas atrasadas.',
+  updatesBadgeBoth: 'O muestra el total combinado de las tareas de hoy y las atrasadas.',
   updatesTitle: 'Planifica cada día con más claridad.',
   updatesLead: 'Descubre lo que ofrece NITI, desde una idea rápida hasta un plan completo.',
   updatesVersion: 'Versión 1.4.0',

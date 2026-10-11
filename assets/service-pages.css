@@ -66,6 +66,7 @@ h2 { margin: 0; font-size: 20px; line-height: 1.15; letter-spacing: -.03em; }
 .release-intro p { margin: 12px 0 0; color: var(--muted); }
 .release-arrow { color: #79877a; font-family: 'Tsukimi Rounded', ui-rounded, sans-serif; font-size: clamp(58px, 9vw, 106px); line-height: .7; }
 .release-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+@media (min-width: 960px) { .release-section[data-release-version='1.4.3'] .release-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 .release-card { display: grid; align-content: start; min-height: 232px; padding: 22px 24px 25px; border: 1px solid var(--line); border-radius: 18px; background: rgba(255,255,255,.8); box-shadow: var(--shadow-soft), inset 0 1px rgba(255,255,255,.9); }
 .release-card:nth-child(4n + 1) { background: #f1f4ee; }
 .release-card:nth-child(4n + 2) { background: #f2f0ec; }
