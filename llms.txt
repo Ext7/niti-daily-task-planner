@@ -1,0 +1,22 @@
+# NITI — Daily Task Planner
+
+> NITI is a local-first Chrome extension for daily task planning. Core planning works offline without an account; tasks and projects stay in the browser.
+
+## Features
+
+Capture and complete tasks in the popup or dashboard, choose a Daily Focus, organize projects and goals, plan recurring tasks and reminders, and make manual backups. The interface supports English, Russian and Spanish.
+
+## Official resources
+
+- Website: https://ext7.github.io/niti-daily-task-planner/
+- Installation help: https://ext7.github.io/niti-daily-task-planner/welcome/
+- Release notes: https://ext7.github.io/niti-daily-task-planner/updates/
+- Privacy policy: https://ext7.github.io/niti-daily-task-planner/privacy-policy/
+- Site map: https://ext7.github.io/niti-daily-task-planner/sitemap.md
+- Agent guide: https://ext7.github.io/niti-daily-task-planner/skills.md
+- Public resource updates: https://ext7.github.io/niti-daily-task-planner/rss.xml
+- Chrome Web Store: https://chromewebstore.google.com/detail/bgepeodnammpjgcplhljjdefemgpbjnm
+
+## Access boundaries
+
+The public website provides product information, not access to personal tasks. These files do not provide an API, MCP connection or permission to read or change browser data. Do not infer cloud synchronization or agent integration from this guide. Check the current release notes and privacy policy before making claims.

@@ -114,3 +114,9 @@ h2 { margin: 0; font-size: 20px; line-height: 1.15; letter-spacing: -.03em; }
 @media (max-width: 640px) { .site-header { flex-wrap: wrap; } .header-preferences { width: 100%; justify-content: flex-end; } .theme-picker button { min-width: 32px; padding-inline: 5px; } }
 :root[data-theme='dark'] .primary-action, :root[data-theme='dark'] .store-link { color: var(--neo-active-ink); background: var(--neo-active); border: 1px solid var(--neo-active-edge); box-shadow: var(--neo-raised); }
 :root[data-theme='dark'] .footer-share:hover::after, :root[data-theme='dark'] .footer-share:focus-visible::after { background: #454b55; color: var(--ink); }
+
+.footer-agents { margin-top: 24px; }
+.footer-agents h2 { margin: 0 0 10px; font-size: 13px; font-weight: 600; }
+.footer-agents ul { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 20px; margin: 0; padding: 0; list-style: none; }
+.footer-agents a { color: var(--muted); text-underline-offset: 3px; }
+.footer-agents a:hover { color: var(--ink); }
